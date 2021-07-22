@@ -1,0 +1,48 @@
+table{
+  table-layout: fixed;
+  width:60% ;
+  border-spacing: 10px;
+  display: inline;
+}
+form{
+  display:inline;
+}
+
+td{
+  border:5px solid #000000;
+  color:black;
+  font-size: 150%;
+  background-color: #ffdbe9;
+  background-image: url('image/backgrounds1.jpg');
+}
+#h2{
+  font-size: 300%;
+  color:grey;
+}
+#h{
+  font-size: 200%;
+  color:#0099FF;
+}
+spam{
+  color:red;
+}
+.registerbtn {
+  background-color: blue;
+  color: yellow;
+  padding: 16px 20px;
+  margin-right: 15%;
+  margin-top:10%;
+  border: none;
+  cursor: pointer;
+  width:20%;
+  height:30%;
+  float:right;
+  opacity: 0.9;
+  font-size: 400%;
+  border-radius: 100%;
+}
+
+.registerbtn:hover {
+  opacity: 0.6;
+  background-color: red;
+}

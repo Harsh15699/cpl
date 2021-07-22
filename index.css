@@ -1,0 +1,46 @@
+
+#game{
+  display:inline;
+  float:right;
+  width:45%;
+}
+.overview{
+  float:left;
+  border-radius: 5%;
+  width:45%;
+
+}
+#h2{
+  float:right;
+  border-radius: 5%;
+  width:45%;
+}
+
+h2{
+  text-decoration: underline;
+  font-weight: bold;
+  color:#009dff;
+}
+#h{
+  display:block;
+}
+#div{
+    float:left;
+    width:45%;
+  }
+  @media screen and (max-width:778px){
+
+  	.overview,#div,#h2{
+  		display:block;
+  		width:100%;
+  	}
+    #h{
+      float:none;
+    }
+  	#game{
+  		display:block;
+  		width:100%;
+  	}
+
+
+  }

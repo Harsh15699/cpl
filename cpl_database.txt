@@ -1,0 +1,28 @@
+create database cpl;
+CREATE USER 'harsh'@'localhost' IDENTIFIED BY 'gautam';
+GRANT ALL PRIVILEGES ON cpl TO 'harsh'@'localhost';
+**username=root
+**password=gautam
+
+create table player(
+p_id primary key auto_increement, 
+p_name varchar(20),
+p_age int,
+p_country varchar(20),
+t_id int references team(t_id) on delete set null,
+Nationality enum('Domestic','Foreign'),
+Skill enum('Batsman','Bowler','All-Rounder'),
+Sold_Price Int Default 0,
+bidding_price int default 0,
+bidding_t_id int default 0,
+Base_Price int)
+
+
+create table team(
+t_id int primary key auto_increement,
+t_name varchar(30),
+owner_name varchar(20),
+username varchar(20),
+password varchar(40))
+
+UPDATE PLAYER SET t_id=0, sold="No"

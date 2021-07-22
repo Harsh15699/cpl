@@ -1,0 +1,36 @@
+table{
+  table-layout: fixed;
+  width:100% ;
+  border-spacing: 10px;
+}
+td{
+  border:5px solid red;
+  color:white;
+  background-color: #ffdbe9;
+  background-image: url('image/backgrounds.jpg');
+}
+#h2{
+  font-size: 300%;
+  color:grey;
+}
+#h{
+  font-size: 200%;
+  color:#0099FF;
+}
+spam{
+  color:#FFFF00;
+}
+.registerbtn {
+  background-color: blue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}

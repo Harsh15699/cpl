@@ -1,0 +1,184 @@
+header{
+	border:2px solid #000000; /*makes header border solid black*/
+	background-color: #d3d3d3;
+  background-image: url('image/background.jpg');
+	box-shadow: 5px 10px 5px #009dff;
+}
+h1{
+  display:inline;
+  float:right;
+  margin:-2px;
+  color:white;
+  font-size:500%;
+}
+#logo{
+  display:inline;
+  border:2px solid #000000;
+  border-radius: 5%;
+  width:15%;
+}
+/*Dropdown Navbar*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+	width:100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Dropdown Navbar end*/
+
+.footer{
+	border:2px solid #000000;
+	border-radius: 5%;
+	text-align: center;
+	background-color: #fcf7f7;
+	color:#009dff;
+	font-style: italic;
+	/*position: fixed;*/
+	left:0;
+	bottom:0;
+	width:99%;
+	margin-bottom:0;
+	margin-top:5px;
+	display:inline-block;
+	box-shadow: 5px 10px #888888;
+}
+
+
+
+/*hamburger*/
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+#sidebar{
+	display:none;
+}
+@media screen and (max-width:778px){
+  .navbar{
+    display:none;
+  }
+	#sidebar{
+		display:inline-block;
+	}
+	h1{
+		font-size: 300%;
+		margin-right: 20px;
+	}
+	#logo{
+		float:right;
+		width:11%;
+	}
+	.overview{
+		display:block;
+		width:100%;
+	}
+	#game{
+		display:block;
+		width:100%;
+	}
+
+}
