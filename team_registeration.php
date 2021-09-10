@@ -12,7 +12,7 @@ if(isset($_POST['name'])&&isset($_POST['owner'])&&isset($_POST['uname'])&&isset(
 
 
   else{
-    $stmt = $pdo->prepare('INSERT INTO Team
+    $stmt = $pdo->prepare('INSERT INTO team
     (t_name,owner_name,username,password,t_email,t_number)
     VALUES ( :n, :o,:u,:p,:e,:m)');
 

@@ -162,7 +162,6 @@ echo("<span id="."'auto1'"."></span>");
   $(document).ready(function(){
     setInterval(function(){
       $('#auto').load('player_selection.php');
-      refresh();
     },3000);
   });
   </script>
